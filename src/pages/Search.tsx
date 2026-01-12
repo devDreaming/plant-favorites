@@ -118,7 +118,7 @@ export default function Search() {
       {!hasSearched && (
         <div className="text-center py-12 text-gray-500">
           <img
-            src="/plant-outline.svg"
+            src={`${import.meta.env.BASE_URL}plant-outline.svg`}
             alt="Plant illustration"
             className="w-48 h-48 mx-auto mb-4 opacity-50"
           />
